@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11    CMakeFiles/gsim.dir/main.cpp.o CMakeFiles/gsim.dir/fasta.cpp.o CMakeFiles/gsim.dir/readsimulator.cpp.o CMakeFiles/gsim.dir/fastq.cpp.o CMakeFiles/gsim.dir/stringutils.cpp.o  -o gsim -rdynamic 
