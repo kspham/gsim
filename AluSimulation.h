@@ -32,23 +32,18 @@ string rc(string& input){
         for (int i=0; i< rcSq.length(); i++)
         {
            if (input[i]== 'A')
-                rcSq[i]= 'T';
+                rcSq[rcSq.length()-i+1]= 'T';
 
            if (input[i]== 'T')
-                rcSq[i]= 'A';
+                rcSq[rcSq.length()-i+1]= 'A';
 
            if (input[i]== 'C')
-                rcSq[i]= 'G';
+                rcSq[rcSq.length()-i+1]= 'G';
 
            if (input[i]== 'G')
-                rcSq[i]= 'C';
+                rcSq[rcSq.length()-i+1]= 'C';
         }
-
-        for (int i=0; i< rcSq.length(); i++)
-        {
-                result=rcSq[i] + result;
-        }
-        return result;
+        return rcSq;
 }
 
 
