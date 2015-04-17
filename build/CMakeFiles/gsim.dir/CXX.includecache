@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/snow/pro/gsim/AluSimulation.h
+/home/sharon/gsim/AluSimulation.h
 string
 -
 algorithm
 -
+iostream
+-
 
-/home/snow/pro/gsim/fasta.h
+/home/sharon/gsim/fasta.h
 vector
 -
 fstream
@@ -24,37 +26,37 @@ glob.h
 iostream
 -
 
-/home/snow/pro/gsim/fastq.h
+/home/sharon/gsim/fastq.h
 ostream
 -
 
-/home/snow/pro/gsim/main.cpp
+/home/sharon/gsim/main.cpp
 iostream
 -
 fasta.h
-/home/snow/pro/gsim/fasta.h
+/home/sharon/gsim/fasta.h
 fastq.h
-/home/snow/pro/gsim/fastq.h
+/home/sharon/gsim/fastq.h
 readsimulator.h
-/home/snow/pro/gsim/readsimulator.h
+/home/sharon/gsim/readsimulator.h
 AluSimulation.h
-/home/snow/pro/gsim/AluSimulation.h
+/home/sharon/gsim/AluSimulation.h
 stringutils.h
-/home/snow/pro/gsim/stringutils.h
+/home/sharon/gsim/stringutils.h
 unistd.h
 -
 
-/home/snow/pro/gsim/readsimulator.h
+/home/sharon/gsim/readsimulator.h
 fasta.h
-/home/snow/pro/gsim/fasta.h
+/home/sharon/gsim/fasta.h
 iostream
 -
 glob.h
 -
 fastq.h
-/home/snow/pro/gsim/fastq.h
+/home/sharon/gsim/fastq.h
 
-/home/snow/pro/gsim/stringutils.h
+/home/sharon/gsim/stringutils.h
 string
 -
 algorithm

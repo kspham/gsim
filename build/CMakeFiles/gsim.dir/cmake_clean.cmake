@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/gsim.dir/main.cpp.o"
   "CMakeFiles/gsim.dir/fasta.cpp.o"
   "CMakeFiles/gsim.dir/readsimulator.cpp.o"
@@ -9,6 +9,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/gsim.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/gsim.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
